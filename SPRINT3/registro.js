@@ -41,3 +41,25 @@ function ordenarArreglo(registros) {
 }
 
 module.exports.ordenarArreglo = ordenarArreglo;
+
+//Código realizado por Andrea Cristina Hernandez  y Bernardo Mira
+
+function filtrarCorreo(registros){
+    const b='gmail.com';
+    var newcorreo =registros.filter((a)=>{
+        
+      if (/gmail.com/.test(a.correo)){
+          return true;
+      }else{
+          return false;
+      }
+      
+      
+           
+       
+    });
+    console.log(newcorreo);
+    return newcorreo;
+}
+
+module.exports.filtrarCorreo=filtrarCorreo;
