@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <article>
+        <section>
+            <form action="" id="form-login">
+                <h1>Iniciar sesión</h1>
+
+                <label for="">Correo</label>
+                <br>
+                <input type="email" id="correo" required>
+                <br>
+
+                <label for="">Contraseña</label>
+                <br>
+                <input type="password" id="contrasena" required>
+                <br>
+
+
+                <input type="text" id="captcha" value="captcha">
+                <label for="">Captcha</label>
+
+
+                <br>
+
+                <input type="button" id="btn-login" value="Login" onclick="login()">
+
+            </form>
+        </section>
+    </article>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
